@@ -1,0 +1,26 @@
+{
+  "extensions": {
+    "recommendations": ["fill-labs.dependi", "tamasfe.even-better-toml"]
+  },
+  "folders": [
+    { "path": "." },
+    { "path": "go" },
+    { "path": "rs" },
+    { "path": "ts" }
+  ],
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.addMissingImports": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "/playground": true
+    },
+
+    // rs (rs/.vscode/settings.jsonに書いても適用されなかった)
+    "rust-analyzer.check.command": "clippy"
+  }
+}

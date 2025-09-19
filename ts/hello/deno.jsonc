@@ -1,0 +1,14 @@
+{
+  "license": "MIT",
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true
+  },
+  "lint": {
+    "rules": {
+      "include": ["no-sync-fn-in-async-fn", "verbatim-module-syntax"]
+    }
+  },
+  "fmt": {
+    "lineWidth": 100
+  }
+}
