@@ -1,5 +1,5 @@
 {
-  "license": "MIT",
+  "workspace": ["cli", "./lib"],
   "compilerOptions": {
     "noUncheckedIndexedAccess": true
   },
