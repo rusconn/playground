@@ -1,0 +1,13 @@
+{
+  "name": "@rusconn/lal",
+  "license": "MIT",
+  "version": "0.1.0",
+  "exports": {
+    "./encodable": "./encodable.ts",
+    "./decodable": "./decodable.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@^1.0.14",
+    "type-fest": "npm:type-fest@^5.0.1"
+  }
+}
