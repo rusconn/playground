@@ -1,0 +1,9 @@
+{
+  "name": "@rusconn/base62-cli",
+  "license": "MIT",
+  "version": "0.1.0",
+  "exports": "./main.ts",
+  "imports": {
+    "@std/io": "jsr:@std/io@^0.225.2"
+  }
+}
