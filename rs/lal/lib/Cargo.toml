@@ -1,0 +1,13 @@
+[package]
+license = "MIT"
+authors = ["rusconn"]
+name = "lal"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+derive_more = { version = "2.0.1", features = ["display"] }
+thiserror = "2.0.17"
+
+[dev-dependencies]
+rstest = "0.26.1"
