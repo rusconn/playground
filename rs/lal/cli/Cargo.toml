@@ -1,0 +1,15 @@
+[package]
+license = "MIT"
+authors = ["rusconn"]
+name = "lal-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "lal"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.49", features = ["derive"] }
+thiserror = "2.0.17"
+lal = { path = "../lib", version = "0.1.0" }
