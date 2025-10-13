@@ -1,0 +1,8 @@
+[workspace]
+members = ["cli", "lib"]
+resolver = "3"
+
+[profile.release-min]
+inherits = "release"
+strip = "symbols"
+panic = "abort"
