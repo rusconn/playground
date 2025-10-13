@@ -1,0 +1,16 @@
+[package]
+license = "MIT"
+authors = ["rusconn"]
+name = "base64"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex = { version = "1.12.1", default-features = false, features = [
+  "std",
+  "perf",
+] }
+thiserror = "2.0.17"
+
+[dev-dependencies]
+rstest = "0.26.1"
