@@ -1,0 +1,15 @@
+[package]
+license = "MIT"
+authors = ["rusconn"]
+name = "base64-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "base64"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.5.49", features = ["derive"] }
+thiserror = "2.0.17"
+base64 = { path = "../lib", version = "0.1.0" }
